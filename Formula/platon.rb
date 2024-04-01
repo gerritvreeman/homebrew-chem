@@ -2,7 +2,7 @@ class Platon < Formula
   desc "Multipurpose crystallographic tool"
   homepage "http://www.platonsoft.nl/platon/"
   url "http://www.platonsoft.nl/xraysoft/unix/platon.tar.gz"
-  version "0"
+  version "60124"
   sha256 "4721088b807b77c3ef48825e24b9928f78d82a7acb4fad2f722fab1baff419fe"
 
   depends_on "gcc" # for gfortran
@@ -24,8 +24,7 @@ class Platon < Formula
   end
 
   def caveats; <<~EOS
-    PLATON does not have version numbers :(
-    It gives a warning during download, and will not be updated automatically.
+    PLATON will not be updated automatically.
     EOS
   end
 
