@@ -1,6 +1,6 @@
 # Homebrew-Chem
 
-A tap for Homebrew providing some useful scientific formula and casks.
+A tap for Homebrew providing some useful formula and casks for scientific work.
 
 Tab this repo using the following command.
 
