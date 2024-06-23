@@ -4,7 +4,9 @@ cask "olex2" do
   #url "https://secure.olex2.org/olex2-distro/olex2-#{version}.app.dmg",
   url "https://secure.olex2.org/olex2-distro/#{version}/olex2-mac64-intel.zip",
       verified: "secure.olex2.org/",
-      user_agent: :fake
+      headers: [
+        "Last-Modified: Wed, 21 Oct 2015 07:28:00 GMT"
+        ]
   name "olex2"
   desc " An easy-to-use program containing everything you need to solve, refine and finish small-molecule crystal structures."
   homepage "https://www.olexsys.org/olex2/"
