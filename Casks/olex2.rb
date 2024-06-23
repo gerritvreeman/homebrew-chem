@@ -4,7 +4,7 @@ cask "olex2" do
   #url "https://secure.olex2.org/olex2-distro/olex2-#{version}.app.dmg",
   url "https://secure.olex2.org/olex2-distro/#{version}/olex2-mac64-intel.zip",
       verified: "secure.olex2.org/",
-      headers: [
+      header: [
         "Last-Modified: Wed, 21 Oct 2015 07:28:00 GMT"
         ]
   name "olex2"
