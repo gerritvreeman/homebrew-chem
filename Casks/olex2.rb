@@ -5,7 +5,7 @@ cask "olex2" do
   url "https://secure.olex2.org/olex2-distro/#{version}/olex2-mac64-intel.zip",
       verified: "secure.olex2.org/",
       header: [
-        "Last-Modified: Wed, 21 Oct 2015 07:28:00 GMT"
+        "Last-Modified: Sun, 23 Jun 2024 04:22:40 GMT"
         ]
   name "olex2"
   desc " An easy-to-use program containing everything you need to solve, refine and finish small-molecule crystal structures."
