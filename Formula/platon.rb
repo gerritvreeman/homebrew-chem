@@ -3,7 +3,7 @@ class Platon < Formula
   homepage "http://www.platonsoft.nl/platon/"
   url "http://www.platonsoft.nl/xraysoft/unix/platon.tar.gz"
   version "60124"
-  sha256 "4721088b807b77c3ef48825e24b9928f78d82a7acb4fad2f722fab1baff419fe"
+  sha256 "9a942cbb066774f9d22c1e17a79493873eff6051b4e8de40dc25a18fd85ba3c2"
 
   depends_on "gcc" # for gfortran
   depends_on "libx11"
