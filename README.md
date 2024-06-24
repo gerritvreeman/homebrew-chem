@@ -2,7 +2,7 @@
 
 A tap for Homebrew providing some useful formula and casks for scientific work.
 
-Tab this repo using the following command.
+Tap this repo using the following command.
 
 ```sh
 brew tap gerritvreeman/homebrew-chem
@@ -17,10 +17,18 @@ brew install formula
 
 ## Available Casks
 
-- [CrystalExplorer21](https://crystalexplorer.net) (cyrstalexplorer)
-- [Olex2](https://www.olexsys.org/olex2/) (olex2)
-- [MestReNova](https://mestrelab.com) (mnova)
+- [CrystalExplorer21](https://crystalexplorer.net) (`cyrstalexplorer`)
+- [Olex2](https://www.olexsys.org/olex2/) (`olex2`)
+- [MestReNova](https://mestrelab.com) (`mnova`)
+
+### Colorpickers
+
+To ensure the color palettes are installed to the correct location to show up in the colorpicker, add `--colorpickerdir=${HOME}/Library/Colors` when installing (e.g., `brew install --cask cask-name --colorpickerdir=${HOME}/Library/Colors`).
+
+- [Solarized](https://ethanschoonover.com/solarized/) (`colorpicker-solarized`)
+- [UMN](https://github.com/gerritvreeman/umn-colors) (`colorpicker-umn`)
+- [NuCo](https://github.com/gerritvreeman/nuco-colors) (`colorpicker-nuco`)
 
 ## Available Formulae
 
-- [Platon](http://www.platonsoft.nl/platon/) (platon)
+- [Platon](http://www.platonsoft.nl/platon/) (`platon`)
