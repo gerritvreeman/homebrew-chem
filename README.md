@@ -19,6 +19,7 @@ brew install formula
 
 - [CrystalExplorer21](https://crystalexplorer.net) (cyrstalexplorer)
 - [Olex2](https://www.olexsys.org/olex2/) (olex2)
+- [MestReNova](https://mestrelab.com) (mnova)
 
 ## Available Formulae
 
