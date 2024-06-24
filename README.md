@@ -17,8 +17,9 @@ brew install formula
 
 ## Available Casks
 
-- CrystalExplorer21 (cyrstalexplorer)
+- [CrystalExplorer21](https://crystalexplorer.net) (cyrstalexplorer)
+- [Olex2](https://www.olexsys.org/olex2/) (olex2)
 
 ## Available Formulae
 
-- platon
+- [Platon](http://www.platonsoft.nl/platon/) (platon)
