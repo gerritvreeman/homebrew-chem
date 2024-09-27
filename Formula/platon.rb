@@ -3,10 +3,11 @@ class Platon < Formula
   homepage "http://www.platonsoft.nl/platon/"
   url "http://www.platonsoft.nl/xraysoft/unix/platon.tar.gz"
   version "130524"
-  sha256 "9a942cbb066774f9d22c1e17a79493873eff6051b4e8de40dc25a18fd85ba3c2"
+  sha256 "bfc5b3ffa4b057b926e92d4d79ae6e8ac347eb815eca3928662e6d1e786b0265"
 
   depends_on "gcc" # for gfortran
   depends_on "libx11"
+  depends_on "xquartz"
 
   def install
     system "gunzip", "platon.f.gz", "xdrvr.c.gz"
