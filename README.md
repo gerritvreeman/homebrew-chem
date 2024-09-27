@@ -32,3 +32,5 @@ To ensure the color palettes are installed to the correct location to show up in
 ## Available Formulae
 
 - [Platon](http://www.platonsoft.nl/platon/) (`platon`)
+- [SHELX](http://shelx.uni-goettingen.de) (`shelx`)
+  Note: to install SHELX, you must register at the [SHELX site](http://shelx.uni-goettingen.de/register.php) (free for academics) and export the username and password `HOMEBREW_SHELX_USER` and `HOMEBREW_SHELX_PW` environment variables before running `brew install shelx`
