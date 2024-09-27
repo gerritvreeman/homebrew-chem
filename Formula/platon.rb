@@ -2,7 +2,7 @@ class Platon < Formula
   desc "Multipurpose crystallographic tool"
   homepage "http://www.platonsoft.nl/platon/"
   url "http://www.platonsoft.nl/xraysoft/unix/platon.tar.gz"
-  version "130524"
+  version "220824"
   sha256 "bfc5b3ffa4b057b926e92d4d79ae6e8ac347eb815eca3928662e6d1e786b0265"
 
   depends_on "gcc" # for gfortran
@@ -24,7 +24,6 @@ class Platon < Formula
   end
 
   def caveats; <<~EOS
-    PLATON will not be updated automatically.
     Please also install XQuartz (`brew install --cask xquartz`).
     EOS
   end
