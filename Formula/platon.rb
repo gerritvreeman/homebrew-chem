@@ -7,7 +7,6 @@ class Platon < Formula
 
   depends_on "gcc" # for gfortran
   depends_on "libx11"
-  depends_on "xquartz"
 
   def install
     system "gunzip", "platon.f.gz", "xdrvr.c.gz"
@@ -26,6 +25,7 @@ class Platon < Formula
 
   def caveats; <<~EOS
     PLATON will not be updated automatically.
+    Please also install XQuartz (`brew install --cask xquartz`).
     EOS
   end
 
