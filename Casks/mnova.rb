@@ -1,9 +1,9 @@
 cask "mnova" do
-  version "15.0.1"
-  sha256 "f3d5c7638f2bcb6b60d83be4a85ca7fa4a2773686017b06ea45c1dbc7d99c497"
-  url "https://mestrelab.com/downloads/mnova/mac/MestReNova-#{version}-35756.dmg"
+  version "15.1.0"
+  sha256 "837b7d34b8ba730a4eeda6a9c43896db7d8d287f4fbea70cf88fab0c14a88d5b"
+  url "https://mestrelab.com/downloads/mnova/mac/MestReNova-#{version}-38027.dmg"
   name "mnova"
-  desc " An easy-to-use program containing everything you need to solve, refine and finish small-molecule crystal structures."
+  desc "Suite for comprehensive analytical chemistry data processing."
   homepage "https://mestrelab.com"
   app "MestReNova.app"
 end
