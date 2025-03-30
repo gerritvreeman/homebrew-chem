@@ -2,22 +2,17 @@
 
 A tap for Homebrew providing some useful formula and casks for scientific work.
 
-Tap this repo using the following command.
+Install casks and formulae using the following commands.
 
 ```sh
-brew tap gerritvreeman/homebrew-chem
-```
-
-Install casks and formulae using the following command.
-
-```sh
-brew install --cask cask-name
-brew install formula
+brew install --cask gerritvreeman/chem/cask-name
+brew install gerritvreeman/chem/formula-name
 ```
 
 ## Available Casks
 
 - [CrystalExplorer21](https://crystalexplorer.net) (`cyrstalexplorer`)
+- [CrystalExplorer25 (alpha)](https://github.com/peterspackman/crystalexplorer) (`cyrstalexplorer@alpha`)
 - [Olex2](https://www.olexsys.org/olex2/) (`olex2`)
 - [MestReNova](https://mestrelab.com) (`mnova`)
 
