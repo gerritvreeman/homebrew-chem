@@ -6,7 +6,7 @@ cask "crystalexplorer" do
       verified: "releases.crystalexplorer.net/"
   name "CrystalExplorer-21"
   desc "Hirshfeld surfaces, interaction energies and more..."
-  homepage "https://crystalexplorer.scb.uwa.edu.au/"
+  homepage "https://crystalexplorer.net"
 
   app "CrystalExplorer.app"
 end
